@@ -63,7 +63,7 @@ public class JaxrsJsonIT {
         String country3Id = countryService.createCountry("Brasil", "br");
 
         Collection<Country> allCountry = countryService.getAll();
-        assertTrue(allCountry.size() >= 2);
+        assertTrue(allCountry.size() >= 4);
     }
 
     @Test
